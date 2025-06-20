@@ -1,5 +1,5 @@
 
-﻿# 🚀 Digital Nurture 4.0 – CTS Hands-on Repository
+ 🚀 Digital Nurture 4.0 – CTS Hands-on Repository
 
 This repo contains all mandatory hands-on solutions from **Cognizant’s Digital Nurture 4.0 program**, organized by module.
 
@@ -40,6 +40,6 @@ Java • Spring Boot • ReactJS • PL/SQL • JUnit5 • Mockito • Git • M
 ---
 
 ## 👤 Author
-**Sahith**  
-📍 Java | Spring | React | Fast Learner  
-🔗 [GitHub](https://github.com/Sahithyan04)
+**Pranesh**  
+📍 Java | Python | Critical Thinker | Fast Learner  
+🔗 [GitHub](https://github.com/Pranesh-Murugesan)
