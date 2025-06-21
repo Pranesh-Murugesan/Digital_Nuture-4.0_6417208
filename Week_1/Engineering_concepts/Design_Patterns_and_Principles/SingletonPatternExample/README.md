@@ -8,9 +8,9 @@ This repository demonstrates the **Singleton Design Pattern** using a `Logger` c
 
 ```
 📦 SingletonPatternExample
- ┣ 📜 Logger.java        # Singleton class
- ┣ 📜 LoggerTest.java    # Tester class to validate singleton behavior
- ┗ 📷 Output.png         # Screenshot showing the output
+ ┣ 📜 Logger.java        
+ ┣ 📜 LoggerTest.java    
+ ┗ 📷 Output.png         
 ```
 
 ---
@@ -47,30 +47,6 @@ Both log1 and log2 are using the same Logger object.
 
 ![Output](./Output.png)
 
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/singleton-pattern-logger.git
-   cd singleton-pattern-logger
-   ```
-
-2. Compile the Java files:
-
-   ```bash
-   javac Logger.java LoggerTest.java
-   ```
-
-3. Run the program:
-
-   ```bash
-   java LoggerTest
-   ```
-
----
 
 ## 📚 Concepts Demonstrated
 
@@ -87,14 +63,3 @@ Both log1 and log2 are using the same Logger object.
 🚀 B.Tech - AI & DS, Batch 2026  
 📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
 
----
-
-## 🌟 Support
-
-If you found this helpful, please ⭐️ this repository and follow me on [GitHub](https://github.com/your-username)!
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
