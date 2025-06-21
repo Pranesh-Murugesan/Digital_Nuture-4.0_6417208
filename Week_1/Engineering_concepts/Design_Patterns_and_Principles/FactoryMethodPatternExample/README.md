@@ -9,13 +9,13 @@ This repository demonstrates the **Factory Method Design Pattern** using a docum
 ```
 📦 FactoryMethodPatternExample
  ┣ 📜 Document.java           
- ┣ 📜 DocumentFactory.java     
- ┣ 📜 WordDocument.java       
+ ┣ 📜 DocumentFactory.java    
+ ┣ 📜 WordDocument.java        
  ┣ 📜 PdfDocument.java        
  ┣ 📜 ExcelDocument.java      
  ┣ 📜 WordFactory.java        
- ┣ 📜 PdfFactory.java
- ┣ 📜 ExcelFactory.java       
+ ┣ 📜 PdfFactory.java         
+ ┣ 📜 ExcelFactory.java
  ┣ 📜 DocumentTest.java       
  ┗ 📷 output.png              
 ```
@@ -53,6 +53,8 @@ Opening an Excel document.
 
 ![Output](./output.png)
 
+---
+
 ## 📚 Concepts Demonstrated
 
 - ✅ Factory Method Design Pattern
@@ -67,3 +69,6 @@ Opening an Excel document.
 **Pranesh M**  
 🚀 B.Tech - AI & DS, Batch 2026  
 📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
+
+---
+

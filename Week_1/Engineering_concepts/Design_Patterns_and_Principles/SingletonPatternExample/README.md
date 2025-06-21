@@ -9,7 +9,7 @@ This repository demonstrates the **Singleton Design Pattern** using a `Logger` c
 ```
 📦 SingletonPatternExample
  ┣ 📜 Logger.java        
- ┣ 📜 LoggerTest.java    
+ ┣ 📜 LoggerTest.java     
  ┗ 📷 Output.png         
 ```
 
@@ -47,6 +47,8 @@ Both log1 and log2 are using the same Logger object.
 
 ![Output](./Output.png)
 
+---
+
 
 ## 📚 Concepts Demonstrated
 
@@ -63,3 +65,4 @@ Both log1 and log2 are using the same Logger object.
 🚀 B.Tech - AI & DS, Batch 2026  
 📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
 
+---
