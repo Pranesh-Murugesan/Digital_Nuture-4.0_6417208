@@ -8,16 +8,16 @@ This repository demonstrates the **Factory Method Design Pattern** using a docum
 
 ```
 📦 FactoryMethodPatternExample
- ┣ 📜 Document.java           # Abstract product
- ┣ 📜 DocumentFactory.java    # Abstract factory
- ┣ 📜 WordDocument.java       # Concrete Word document
- ┣ 📜 PdfDocument.java        # Concrete PDF document
- ┣ 📜 ExcelDocument.java      # Concrete Excel document
- ┣ 📜 WordFactory.java        # Factory for Word documents
- ┣ 📜 PdfFactory.java         # Factory for PDF documents
- ┣ 📜 ExcelFactory.java       # Factory for Excel documents
- ┣ 📜 DocumentTest.java       # Tester class
- ┗ 📷 output.png              # Screenshot showing terminal output
+ ┣ 📜 Document.java           
+ ┣ 📜 DocumentFactory.java     
+ ┣ 📜 WordDocument.java       
+ ┣ 📜 PdfDocument.java        
+ ┣ 📜 ExcelDocument.java      
+ ┣ 📜 WordFactory.java        
+ ┣ 📜 PdfFactory.java
+ ┣ 📜 ExcelFactory.java       
+ ┣ 📜 DocumentTest.java       
+ ┗ 📷 output.png              
 ```
 
 ---
@@ -53,31 +53,6 @@ Opening an Excel document.
 
 ![Output](./output.png)
 
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/factory-method-pattern-documents.git
-   cd factory-method-pattern-documents
-   ```
-
-2. Compile the Java files:
-
-   ```bash
-   javac *.java
-   ```
-
-3. Run the program:
-
-   ```bash
-   java DocumentTest
-   ```
-
----
-
 ## 📚 Concepts Demonstrated
 
 - ✅ Factory Method Design Pattern
@@ -92,15 +67,3 @@ Opening an Excel document.
 **Pranesh M**  
 🚀 B.Tech - AI & DS, Batch 2026  
 📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
-
----
-
-## 🌟 Support
-
-If you found this helpful, please ⭐️ this repository and follow me on [GitHub](https://github.com/your-username)!
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
