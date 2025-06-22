@@ -1,4 +1,4 @@
-package Week_1.Engineering_concepts.Data_Structure_and_Principles.E_commerce_Platform;
+package E_commerce_Platform;
 
 import java.util.Arrays;
 import java.util.Comparator;

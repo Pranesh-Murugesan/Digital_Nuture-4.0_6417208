@@ -1,87 +1,68 @@
-# 🛒 E-commerce Product Search (Java)
+# 🛒 E-commerce Search (Java)
 
-This project demonstrates a simple console-based **Product Search System** for an E-commerce platform. Users can search for products using either **Linear Search** or **Binary Search** from a predefined list of products.
-
----
-
-## 📁 Folder Structure
-
-```
-Week_1/
-└── Engineering_concepts/
-    └── Data_Structure_and_Principles/
-        └── E_commerce_Platform/
-            ├── Product.java
-            ├── SearchUtil.java
-            └── MainSearchApp.java
-```
-
-> 📌 Note: Make sure the package path and folder structure match exactly.
+A simple Java console app that allows users to search for products using **Linear** or **Binary Search** from a predefined list.
 
 ---
 
-## 📦 Features
-
-- Case-insensitive product name search
-- Supports **Linear** and **Binary** search algorithms
-- Simple object-oriented design
-- Interactive user input using Scanner
-
-
-## 🧪 Sample Input/Output
+## 📁 Folder
 
 ```
-Choose search type: linear / binary
-> binary
-Enter product name to search:
-> macbook air
-
-Product found (Binary):
-[3] MacBook Air - Electronics
+E_commerce_Platform/
+├── Product.java
+├── SearchUtil.java
+└── MainSearchApp.java
 ```
 
+---
+
+## ⚙️ Features
+
+- Case-insensitive search  
+- Linear & binary search options  
+- Object-oriented design  
+- Uses `Comparator` for sorting (binary search)
+
+---
+
+## 🔎 Sample Output
+
 ```
-Choose search type: linear / binary
 > linear
-Enter product name to search:
+Enter product name:
+> t-shirt
+
+Product found (Linear):
+[2] T-Shirt - Clothing
+```
+
+```
+> binary
+Enter product name:
 > milk
 
-No product named 'milk' found (Linear).
+No product named 'milk' found (Binary).
 ```
 
 ---
 
-## 📚 Classes Explained
+## 📚 Files
 
-### `Product.java`
-Defines the `Product` class with:
-- `productId`
-- `productName`
-- `category`
-- `display()` method
-
-### `SearchUtil.java`
-Contains two static methods:
-- `linearSearch(String name, Product[] products)`
-- `binarySearch(String name, Product[] products)`
-
-### `MainSearchApp.java`
-Main entry point. Prompts user for input, reads search type and keyword, and triggers the appropriate search method.
+- `Product.java`: defines product attributes and display method  
+- `SearchUtil.java`: implements search logic  
+- `MainSearchApp.java`: handles user interaction
 
 ---
 
-## ✅ Future Enhancements (Suggestions)
-- Add product price, availability, and brand
-- Allow category-based or price-range search
-- GUI version using JavaFX or Swing
-- Load product list from a file or database
+## ⏱️ Time Complexity
+
+| Search Type   | Best | Worst | Sorted |
+|---------------|------|--------|--------|
+| Linear Search | O(1) | O(n)   | ❌     |
+| Binary Search | O(1) | O(log n)| ✅     |
 
 ---
 
 ## 👨‍💻 Author
 
-- **Pranesh M**
-- Trainee at Cognizant (CTS)
-- B.Tech - AIDS, Batch 2026
-
-
+**Pranesh M**  
+Trainee, Cognizant | B.Tech AIDS – Batch 2026
