@@ -1,7 +1,6 @@
-package E_commerce_Platform;
+package Week_1_DataStructureAndPrinciples.HandsOn_2_E_CommercePlatform.Code;
 
 import java.util.Scanner;
-
 public class MainSearchApp {
     public static void main(String[] args) {
         Product[] products = {

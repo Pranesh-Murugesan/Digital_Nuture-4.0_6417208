@@ -1,4 +1,4 @@
-package Week_1.Engineering_concepts.Design_Patterns_and_Principles.FactoryMethodPatternExample;
+package Week_1_DesignPatternsAndPrinciples.HandsOn_2_FactoryMethodPatternExample.Code;
 
     public interface Document {
     void open();

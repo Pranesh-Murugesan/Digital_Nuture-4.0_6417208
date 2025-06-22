@@ -1,4 +1,4 @@
-package E_commerce_Platform;
+package Week_1_DataStructureAndPrinciples.HandsOn_2_E_CommercePlatform.Code;
 
 public class Product {
     private int productId;

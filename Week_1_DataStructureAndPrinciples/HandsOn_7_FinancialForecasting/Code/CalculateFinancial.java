@@ -1,4 +1,4 @@
-package Financial_Forecasting;
+package Week_1_DataStructureAndPrinciples.HandsOn_7_FinancialForecasting.Code;
 
 public class CalculateFinancial {
     private double amount;

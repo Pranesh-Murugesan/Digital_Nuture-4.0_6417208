@@ -7,18 +7,20 @@ This repository demonstrates the **Factory Method Design Pattern** using a docum
 ## 📁 Project Structure
 
 ```
-📦 FactoryMethodPatternExample
- ┣ 📜 Document.java           
- ┣ 📜 DocumentFactory.java    
- ┣ 📜 WordDocument.java        
- ┣ 📜 PdfDocument.java        
- ┣ 📜 ExcelDocument.java      
- ┣ 📜 WordFactory.java        
- ┣ 📜 PdfFactory.java         
- ┣ 📜 ExcelFactory.java
- ┣ 📜 DocumentTest.java       
- ┗ 📷 output.png              
-```
+📦 Week_1_DesignPatternsAndPrinciples
+ └── 📂 HandsOn_2_FactoryMethodPatternExample
+     ┣ 📂 Code
+     ┃  ┣ 📜 Document.java
+     ┃  ┣ 📜 DocumentFactory.java
+     ┃  ┣ 📜 WordDocument.java
+     ┃  ┣ 📜 PdfDocument.java
+     ┃  ┣ 📜 ExcelDocument.java
+     ┃  ┣ 📜 WordFactory.java
+     ┃  ┣ 📜 PdfFactory.java
+     ┃  ┣ 📜 ExcelFactory.java
+     ┃  ┗ 📜 DocumentTest.java
+     ┗ 📂 Output
+        ┗ 📷 output.png
 
 ---
 

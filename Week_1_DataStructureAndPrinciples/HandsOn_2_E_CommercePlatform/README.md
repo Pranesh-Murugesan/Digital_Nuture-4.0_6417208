@@ -4,13 +4,17 @@ A simple Java console app that allows users to search for products using **Linea
 
 ---
 
-## 📁 Folder
 
+> 🔰 Each Java file must be inside:
 ```
-E_commerce_Platform/
-├── Product.java
-├── SearchUtil.java
-└── MainSearchApp.java
+Week_1_DataStructureAndPrinciples/
+└── HandsOn_2_E_CommercePlatform/
+    └── code/
+        ├── Product.java
+        ├── SearchUtil.java
+        └── MainSearchApp.java
+    └── Output/
+        └── output.png
 ```
 
 ---
@@ -18,9 +22,9 @@ E_commerce_Platform/
 ## ⚙️ Features
 
 - Case-insensitive search  
-- Linear & binary search options  
-- Object-oriented design  
-- Uses `Comparator` for sorting (binary search)
+- Choose between Linear and Binary search  
+- Object-Oriented Design  
+- Uses `Comparator` for case-insensitive binary search  
 
 ---
 
@@ -45,24 +49,26 @@ No product named 'milk' found (Binary).
 
 ---
 
-## 📚 Files
+## 📚 Java Files
 
-- `Product.java`: defines product attributes and display method  
-- `SearchUtil.java`: implements search logic  
-- `MainSearchApp.java`: handles user interaction
+- `Product.java`: defines the product structure  
+- `SearchUtil.java`: contains linear and binary search implementations  
+- `MainSearchApp.java`: handles user interaction and drives the program
 
 ---
 
 ## ⏱️ Time Complexity
 
-| Search Type   | Best | Worst | Sorted |
-|---------------|------|--------|--------|
-| Linear Search | O(1) | O(n)   | ❌     |
-| Binary Search | O(1) | O(log n)| ✅     |
+| Search Type   | Best  | Worst  | Requires Sorting |
+|---------------|-------|--------|------------------|
+| Linear Search | O(1)  | O(n)   | ❌               |
+| Binary Search | O(1)  | O(log n)| ✅              |
 
 ---
+
 
 ## 👨‍💻 Author
 
 **Pranesh M**  
-Trainee, Cognizant | B.Tech AIDS – Batch 2026
+📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
+ ---

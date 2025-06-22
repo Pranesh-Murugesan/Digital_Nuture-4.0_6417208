@@ -7,11 +7,14 @@ This repository demonstrates the **Singleton Design Pattern** using a `Logger` c
 ## 📁 Project Structure
 
 ```
-📦 SingletonPatternExample
- ┣ 📜 Logger.java        
- ┣ 📜 LoggerTest.java     
- ┗ 📷 Output.png         
-```
+📦 Week_1_DesignPatternsAndPrinciples
+ └── 📂 HandsOn_1_SingletonPatternExample
+     └── 📂 Code
+         ┣ 📜 Logger.java
+         ┣ 📜 LoggerTest.java
+    └── 📂 Output
+         ┣ 📷 Output.png
+
 
 ---
 

@@ -52,22 +52,21 @@ Estimated Future Value: ₹6655.00
 ## 📁 Folder Structure
 
 ```
-Week_1/
-└── Engineering_concepts/
-    └── Data_Structure_and_Principles/
-        └── Financial_Forecasting/
-            ├── Financial.java
-            ├── CalculateFinancial.java
-            └── Test.java
+Week_1_DataStructureAndPrinciples/
+└── HandsOn_7_FinancialForecasting/
+    └── Code/
+        ├── Financial.java
+        ├── CalculateFinancial.java
+        └── Test.java
+    └── Output/
+        └── output.png
 ```
 
----
 
 ## 👨‍💻 Author
 
 **Pranesh M**  
-Trainee at Cognizant (CTS)  
-B.Tech - AIDS, Batch 2026  
-Hands-On Project – Data Structure and Principles
+📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
+
 
 ---
