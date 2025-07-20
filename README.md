@@ -40,6 +40,14 @@ This repository contains all **mandatory hands-on solutions** from Cognizant’s
 - 🔹 Handling Authorization Headers and Token Response
 - 🔹 Writing Spring Security Configuration with `SecurityFilterChain`
 
+### ✅ Week 5: Microservices using Spring Boot
+- 🔹 Creating Independent Microservices for Account and Loan
+- 🔹 Building RESTful Services with Dynamic Path Variables
+- 🔹 Configuring Ports using `application.properties`
+- 🔹 Returning Hardcoded JSON Responses for Testing
+- 🔹 Running and Testing Microservices on Different Ports
+
+
 ---
 
 ## ⚙️ Tech Used
