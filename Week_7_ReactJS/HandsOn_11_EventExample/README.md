@@ -1,45 +1,22 @@
+# Event Example App
 
-# ⚡ Event Example App - React Hands-On
-
-A React app demonstrating how to handle various types of **events** in class components, including:
-- Button clicks
-- Alert messages
-- Synthetic events
-- Form inputs and submission
-
-Includes a built-in **Currency Converter** using controlled components.
-
-> 💡 **Author**: Vaishnav Dinesh
+In this hands on I have created a react app named ```eventexamplesapp``` to handle various events of the form elements in HTML.
 
 ---
 
-## 📁 Project Structure
+## App.js
 
-```
-EventExampleApp/
-│
-├── src/
-│   ├── App.js
-│   └── CurrencyConvertor.js
-└── README.md
-```
+``` js
 
----
-
-## 🔹 App Component
-
-**File:** `App.js`
-
-Handles different events using class methods:
-
-```jsx
 import React, { Component } from 'react';
 import CurrencyConvertor from './CurrencyConvertor';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0 };
+    this.state = {
+      count: 0
+    };
   }
 
   increment = () => {
@@ -86,72 +63,61 @@ class App extends Component {
 }
 
 export default App;
+
 ```
 
 ---
 
-## 🔹 CurrencyConvertor Component
+## CurrencyCoverter.js
 
-**File:** `CurrencyConvertor.js`
+``` js
 
-Handles form input and performs conversion:
-
-```jsx
 import React, { Component } from 'react';
 
 class CurrencyConvertor extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      amount: '',
-      result: ''
-    };
-  }
+    constructor(props) {
+        super(props);
+        this.state = {
+        amount: '',
+        result: ''
+        };
+    }
 
-  handleChange = (e) => {
-    this.setState({ amount: e.target.value });
-  }
+    handleChange = (e) => {
+        this.setState({ amount: e.target.value });
+    }
 
-  handleSubmit = () => {
-    const result = parseFloat(this.state.amount) * 80;
-    alert(`Converting to Euro Amount is ${result}`);
-    this.setState({ result });
-  }
+    handleSubmit = () => {
+        const result = parseFloat(this.state.amount) * 80;
+        alert(`Converting to Euro Amount is ${result}`);
+        this.setState({ result });
+    }
 
-  render() {
-    return (
-      <div style={{ fontFamily: 'Arial', marginTop: '30px' }}>
-        <h1 style={{ color: 'green' }}>Currency Convertor!!!</h1>
-        <form>
-          <label>Amount: </label>
-          <input type="text" value={this.state.amount} onChange={this.handleChange} />
-          <br /><br />
-          <label>Currency: </label>
-          <textarea value="Euro" readOnly />
-          <br /><br />
-          <button type="button" onClick={this.handleSubmit}>Submit</button>
-        </form>
-      </div>
-    );
-  }
+    render() {
+        return (
+        <div style={{ fontFamily: 'Arial', marginTop: '30px' }}>
+            <h1 style={{ color: 'green' }}>Currency Convertor!!!</h1>
+            <form>
+            <label>Amount: </label>
+            <input type="text" value={this.state.amount} onChange={this.handleChange} />
+            <br /><br />
+            <label>Currency: </label>
+            <textarea value="Euro" readOnly />
+            <br /><br />
+            <button type="button" onClick={this.handleSubmit}>Submit</button>
+            </form>
+        </div>
+        );
+    }
 }
 
 export default CurrencyConvertor;
+
 ```
+## 🧑‍💻 Author
+
+**Pranesh M**  
+🚀 B.Tech - AI & DS, Batch 2026  
+📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
 
 ---
-
-## 🚀 How to Run
-
-```bash
-npm install
-npm start
-```
-
-App runs at: `http://localhost:3000`
-
----
-
-## 👨‍💻 Author
-
-Built with 💡 by **Vaishnav Dinesh**
