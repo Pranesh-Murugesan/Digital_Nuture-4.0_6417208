@@ -1,40 +1,31 @@
+# Office Space Rental App
 
-# 🏢 Office Space Rental App - React Hands-On
-
-A simple React project displaying available office spaces using dynamic data, local images, and conditional rendering.
-
-This app demonstrates:
-- JSX syntax
-- Dynamic rendering using `map()`
-- Inline CSS styling
-- Conditional styling based on rent values
-
-
-## 📁 Project Structure
-
-```
-OfficeSpaceRentalApp/
-│
-├── src/
-│   ├── offices/
-│   │   ├── dbs.png
-│   │   ├── wework.png
-│   │   ├── rmz.png
-│   │   └── tidelpark.png
-│   ├── App.js
-│   └── App.css
-└── README.md
-```
+In this hands on I have created a react app named ```officespacerentalapp``` using JSX to display multiple office spaces using local images, dynamic data, and inline CSS styles.
 
 ---
 
-## 🔹 App Component
+## App.js
 
-**File:** `App.js`
+In that ```App.js``` I have done the following changes to meet the requirement:
 
-Displays a list of office spaces with rent-based styling and local images.
+->Created a JSX heading to display the page title.
 
-```jsx
+->Displayed office space data using an array of objects.
+
+->Used the map() method to render multiple office details.
+
+->Added individual images for each office from a local folder.
+
+->Applied inline CSS to highlight the rent:
+
+    ->Rent is shown in red if it is below 60000
+
+    ->Rent is shown in green if it is 60000 or above
+
+->Wrapped each office block inside a bordered card layout using inline styles.
+
+``` js
+
 import './App.css';
 import dbs from '../src/offices/dbs.png';
 import wework from '../src/offices/wework.png';
@@ -42,13 +33,33 @@ import rmz from '../src/offices/rmz.png';
 import tidelpark from '../src/offices/tidelpark.png';
 
 function App() {
-  const heading = <h1>Office Space, at Affordable Range</h1>;
+  const heading = <h1>Office Space , at Affordable Range</h1>;
 
   const offices = [
-    { name: "DBS", rent: 50000, address: "Chennai", image: dbs },
-    { name: "Tidel Park", rent: 75000, address: "Coimbatore", image: tidelpark },
-    { name: "WeWork", rent: 60000, address: "Bangalore", image: wework },
-    { name: "RMZ", rent: 45000, address: "Hyderabad", image: rmz }
+    {
+      name: "DBS",
+      rent: 50000,
+      address: "Chennai",
+      image: dbs
+    },
+    {
+      name: "Tidel Park",
+      rent: 75000,
+      address: "Coimbatore",
+      image: tidelpark
+    },
+    {
+      name: "WeWork",
+      rent: 60000,
+      address: "Bangalore",
+      image: wework
+    },
+    {
+      name: "RMZ",
+      rent: 45000,
+      address: "Hyderabad",
+      image: rmz
+    }
   ];
 
   const officeCardStyle = {
@@ -70,11 +81,13 @@ function App() {
   return (
     <div style={{ textAlign: 'center', fontFamily: 'Arial' }}>
       {heading}
+
       {offices.map((office, index) => {
         const rentStyle = {
           color: office.rent < 60000 ? 'red' : 'green',
           fontWeight: 'bold'
         };
+
         return (
           <div key={index} style={officeCardStyle}>
             <img src={office.image} alt={office.name} style={imageStyle} />
@@ -89,20 +102,7 @@ function App() {
 }
 
 export default App;
-```
 
----
-
-## 🚀 How to Run
-
-```bash
-npm install
-npm start
-```
-
-App runs at: `http://localhost:3000`
-
----
 ```
 ## 🧑‍💻 Author
 
