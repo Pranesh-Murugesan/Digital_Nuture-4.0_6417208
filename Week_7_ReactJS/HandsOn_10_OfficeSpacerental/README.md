@@ -9,9 +9,6 @@ This app demonstrates:
 - Inline CSS styling
 - Conditional styling based on rent values
 
-> 💡 **Author**: Vaishnav Dinesh
-
----
 
 ## 📁 Project Structure
 
@@ -106,7 +103,11 @@ npm start
 App runs at: `http://localhost:3000`
 
 ---
+```
+## 🧑‍💻 Author
 
-## 👨‍💻 Author
+**Pranesh M**  
+🚀 B.Tech - AI & DS, Batch 2026  
+📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
 
-Made with 💼 by **Vaishnav Dinesh**
+---
