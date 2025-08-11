@@ -129,3 +129,10 @@ function App() {
 export default App;
 
 ```
+## 🧑‍💻 Author
+
+**Pranesh M**  
+🚀 B.Tech - AI & DS, Batch 2026  
+📫 [Email Me](mailto:m.pranesh15112004@gmail.com)
+
+---
